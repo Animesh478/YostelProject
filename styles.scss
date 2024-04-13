@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Lato", sans-serif;
   background: url(Images/Background.jpg);
@@ -14,7 +14,6 @@ body {
   min-height: 100vh;
   width: 100%;
 }
-
 .main-header {
   display: flex;
   align-items: center;
@@ -23,7 +22,16 @@ body {
   position: relative;
   height: 5rem;
 }
-
+// .logo {
+//   height: 150px;
+//   width: 150px;
+//   position: absolute;
+//   background: url(Images/Y.jpg) center/cover;
+//   box-shadow: 3px 3px 10px rgba(207, 207, 207, 0.7);
+//   margin: 0 auto;
+//   border-radius: 50%;
+//   text-align: center;
+// }
 .logo {
   position: absolute;
   display: flex;
@@ -36,19 +44,16 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
-
 .logo img {
   height: 100px;
   width: 100px;
   border-radius: 50%;
 }
-
 .logo div {
   margin-top: 1rem;
   font-size: 1.2rem;
   font-weight: 700;
 }
-
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -75,9 +80,6 @@ body {
 .nav-bar__left--item {
   padding: 5px 10px;
 }
-
 .nav-bar__right--item {
   padding: 5px 10px;
 }
-
-/*# sourceMappingURL=styles.css.map */
